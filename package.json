@@ -1,0 +1,19 @@
+{
+  "name": "jacobwgillespie",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
+  "homepage": "https://github.com/jacobwgillespie/me",
+  "repository": "https://github.com/jacobwgillespie/me.git",
+  "bin": "index.js",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
