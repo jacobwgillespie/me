@@ -7,7 +7,7 @@
   "repository": "https://github.com/jacobwgillespie/me.git",
   "bin": "index.js",
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.4"
   },
   "prettier": {
     "bracketSpacing": false,
