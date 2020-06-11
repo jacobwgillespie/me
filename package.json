@@ -5,9 +5,19 @@
   "author": "Jacob Gillespie <jacobwgillespie@gmail.com>",
   "homepage": "https://github.com/jacobwgillespie/me",
   "repository": "https://github.com/jacobwgillespie/me.git",
-  "bin": "index.js",
+  "files": [
+    "dist"
+  ],
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.js -o dist -m"
+  },
   "devDependencies": {
-    "prettier": "^2.0.4"
+    "@zeit/ncc": "^0.22.3",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "prettier": "^2.0.5",
+    "terminal-link": "^2.1.1"
   },
   "prettier": {
     "bracketSpacing": false,
