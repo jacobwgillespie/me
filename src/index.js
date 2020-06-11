@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const boxen = require('boxen')
 const terminalLink = require('terminal-link')
 const chalk = require('chalk')
